@@ -1,3 +1,5 @@
 docker build -t jiyun/fastapi-server:1.2 .
 docker run --env-file .env -p 80:8000 --name fastapi-server --rm -d jiyun/fastapi-server:1.2 
 docker push jiyun/fastapi-server:1.2
+
+새로 변경한 사항
